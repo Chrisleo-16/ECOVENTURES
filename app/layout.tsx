@@ -4,11 +4,16 @@ import Navbar from "@/components/Navbar";
 import { ClerkProvider } from "@clerk/nextjs";
 import Footer from "@/components/Footer";
 import ThemeProvider from "@/utilis/ThemeProvider";
-import BacktoTopButton from "@/components/BackToTopButton";
+
 
 export const metadata: Metadata = {
   title: "EcoVent",
   description: "EcoVanguard Ventures",
+  icons: {
+    icon: ["/favicon.ico?v=4"],
+    apple: ["apple-touch-icon.png?v=4"],
+    shortcut: ["apple-touch-icon.png"],
+  },
 };
 
 export default function RootLayout({
@@ -26,7 +31,6 @@ export default function RootLayout({
             <main className="relative overflow-hidden ">{children}</main>
             <Footer />
           </ThemeProvider>
-            <BacktoTopButton />
         </body>
       </html>
     </ClerkProvider>

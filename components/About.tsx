@@ -33,7 +33,7 @@ const About = () => {
                 Rural industrial convergence in Kenya involves integrating
                 various sectors to create sustainable economic opportunities
                 <a
-                  href="#"
+                  href="/blog"
                   className="flex gap-8 hover:text-green-500 hover:ease-in hover:duration-1000 ease-out duration-700 mt-12 xl:mt-24 mb-12"
                 >
                   {" "}
@@ -53,7 +53,7 @@ const About = () => {
                 sustainable practices, and community engagement is essential for
                 building economic resilience in Kenyan agriculture
                 <a
-                  href="#"
+                  href="/blog"
                   className="flex gap-8 mt-12 mb-12  hover:text-yellow-500 hover:ease-in hover:duration-1000 ease-out duration-700"
                 >
                   Read More
@@ -73,7 +73,7 @@ const About = () => {
                 solutions that balance industrial growth with the preservation
                 of agricultural spaces.
                 <a
-                  href="#"
+                  href="/blog"
                   className="flex gap-8 mt-6 mb-12  hover:text-green-500 hover:ease-in hover:duration-1000 ease-out duration-700 "
                 >
                   {" "}
@@ -94,7 +94,7 @@ const About = () => {
                 without adversely affecting agricultural productivity is what it
                 aims to accomplish.
                 <a
-                  href="#"
+                  href="/blog"
                   className="flex gap-8 mt-12 mb-12 hover:text-yellow-500 hover:ease-in hover:duration-1000 ease-out duration-700 "
                 >
                   {" "}
